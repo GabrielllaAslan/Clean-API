@@ -21,7 +21,8 @@ namespace Test.DogTests.QueryTest
         public async Task Handle_ValidId_ReturnsCorrectDog()
         {
             // Arrange
-            var dogId = new Guid("12345678-1234-5678-1234-567812345678");
+            // 
+            var dogId = new Guid("12345678-1234-9876-6543-9876123456789");
 
             var query = new GetDogByIdQuery(dogId);
 
