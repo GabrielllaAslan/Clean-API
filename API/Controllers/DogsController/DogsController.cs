@@ -109,6 +109,6 @@ namespace API.Controllers.DogsController
         }
 
         // IMPLEMENT DELETE !!!
-        // Retunera (return NoContent(); nrä jag skriver validering för delete)!
+        // Retunera (return NoContent(); när jag skriver validering för delete)!
     }
 }
