@@ -24,7 +24,7 @@ namespace API.Controllers.DogsController
 
         // Get all dogs from database
         [HttpGet]
-        [Route("getAllDogs")]
+        [Route("getAllDogz")]
         public async Task<IActionResult> GetAllDogs()
         {
             return Ok(await _mediator.Send(new GetAllDogsQuery()));
