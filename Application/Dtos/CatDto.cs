@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Dtos
 {
-    internal class CatDto
+    public class CatDto
     {
+        public string Name { get; set; } = string.Empty;
     }
 }
+

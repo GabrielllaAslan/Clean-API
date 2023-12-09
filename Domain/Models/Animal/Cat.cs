@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Domain.Models.Animal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Models.Animal
+namespace Domain.Models
 {
-    internal class Cat
+    public class Cat : AnimalModel
     {
+        public string Purr()
+        {
+            return "This animal purrs";
+        }
+        public bool LikesToPlay { get; set; }
     }
 }
