@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BirdTest\CommandTest\" />
     <Folder Include="BirdTest\QueryTest\" />
     <Folder Include="DogTests\CommandTest\" />
   </ItemGroup>
