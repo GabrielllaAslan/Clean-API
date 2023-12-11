@@ -1,11 +1,5 @@
 ﻿using Application.Commands.Cats.DeleteCat;
 using Infrastructure.Database;
-using NUnit.Framework.Constraints;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Test.CatTests.CommandTest
 {

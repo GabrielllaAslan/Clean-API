@@ -8,7 +8,7 @@ namespace Application.Queries.Birds.GetAll
     internal sealed class GetAllBirdsQueryHandler : IRequestHandler<GetAllBirdsQuery, List<Bird>>
     {
         private readonly MockDatabase _mockDatabase;
-        
+
 
         public GetAllBirdsQueryHandler(MockDatabase mockDatabase)
         {
