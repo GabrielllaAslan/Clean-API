@@ -4,6 +4,7 @@ using MediatR;
 
 namespace Application.Queries.Cats.GetById
 {
+    /*
     public class GetCatByIdQueryHandler : IRequestHandler<GetCatByIdQuery, Cat>
     {
         private readonly MockDatabase _mockDatabase;
@@ -24,5 +25,5 @@ namespace Application.Queries.Cats.GetById
 
             return Task.FromResult(wantedCat);
         }
-    }
+    } */
 }
